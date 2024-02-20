@@ -145,7 +145,7 @@ terraform output
 7. On the last page, make sure to copy/paste these keys for storing in Github Secrets
 ![image](https://user-images.githubusercontent.com/57732284/221991526-ec4af661-b200-48cd-9087-6f1b3b9820b3.png)
 
-#### Add Github Action user to Kubernetes
+###### Add Github Action user to Kubernetes
 
 Now that the cluster and all AWS resources have been created, you'll need to add the `github-action-user` IAM user ARN to the Kubernetes configuration that will allow that user to execute `kubectl` commands against the cluster.
 
